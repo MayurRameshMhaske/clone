@@ -21,5 +21,4 @@ function read(){
 }
 setInterval(write,5000);
 setInterval(read,10000);
-server.listen(9000);
-console.log("HTTP server is listening on port 9000");
+
